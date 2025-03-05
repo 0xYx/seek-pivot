@@ -35,7 +35,7 @@ def print_trading_output(result: dict) -> None:
         for agent, signals in result.get("analyst_signals", {}).items():
             if ticker not in signals:
                 continue
-
+            print(signals)
             signal = signals[ticker]
             agent_name = agent.replace("_agent", "").replace("_", " ").title()
             signal_type = signal.get("signal", "").upper()
@@ -51,6 +51,7 @@ def print_trading_output(result: dict) -> None:
                     f"{Fore.CYAN}{agent_name}{Style.RESET_ALL}",
                     f"{signal_color}{signal_type}{Style.RESET_ALL}",
                     f"{Fore.YELLOW}{signal.get('confidence')}%{Style.RESET_ALL}",
+                    f"{Fore.YELLOW}{signal.get('target_price_range')}{Style.RESET_ALL}",
                 ]
             )
 
@@ -61,9 +62,9 @@ def print_trading_output(result: dict) -> None:
         print(
             tabulate(
                 table_data,
-                headers=[f"{Fore.WHITE}Analyst", "Signal", "Confidence"],
+                headers=[f"{Fore.WHITE}Analyst", "Signal", "Confidence", "Target Price Range"],
                 tablefmt="grid",
-                colalign=("left", "center", "right"),
+                colalign=("left", "center", "center", "right"),
             )
         )
 

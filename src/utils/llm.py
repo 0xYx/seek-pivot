@@ -48,6 +48,7 @@ def call_llm(
         try:
             # Call the LLM
             result = llm.invoke(prompt)
+            print(result.content)
             
             # For Deepseek, we need to extract and parse the JSON manually
             if model_info and model_info.is_deepseek():

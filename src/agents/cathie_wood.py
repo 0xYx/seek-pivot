@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI
 from graph.state import AgentState, show_agent_reasoning
-from tools.api import get_financial_metrics, get_market_cap, search_line_items
+from tools.api import get_financial_metrics, get_market_cap, search_line_items, get_prices
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage
 from pydantic import BaseModel
@@ -8,11 +8,14 @@ import json
 from typing_extensions import Literal
 from utils.progress import progress
 from utils.llm import call_llm
+from utils.callbacks import CustomCallbackHandler
+
 
 class CathieWoodSignal(BaseModel):
     signal: Literal["bullish", "bearish", "neutral"]
     confidence: float
     reasoning: str
+    target_price_range: str
 
 
 def cathie_wood_agent(state: AgentState):
@@ -30,10 +33,19 @@ def cathie_wood_agent(state: AgentState):
     analysis_data = {}
     cw_analysis = {}
 
+
+
     for ticker in tickers:
         progress.update_status("cathie_wood_agent", ticker, "Fetching financial metrics")
+        # Calculate start_date as 1 day before end_date
+        from datetime import datetime, timedelta
+        end_date_obj = datetime.strptime(end_date, "%Y-%m-%d")
+        start_date = (end_date_obj - timedelta(days=1)).strftime("%Y-%m-%d")
+        
         # You can adjust these parameters (period="annual"/"ttm", limit=5/10, etc.)
         metrics = get_financial_metrics(ticker, end_date, period="annual", limit=5)
+        prices = get_prices(ticker, start_date, end_date)
+        print(f"prices: {prices}")
 
         progress.update_status("cathie_wood_agent", ticker, "Gathering financial line items")
         # Request multiple periods of data (annual or TTM) for a more robust view.
@@ -64,13 +76,15 @@ def cathie_wood_agent(state: AgentState):
 
         progress.update_status("cathie_wood_agent", ticker, "Analyzing disruptive potential")
         disruptive_analysis = analyze_disruptive_potential(metrics, financial_line_items)
+        print(f"disruptive_analysis: {disruptive_analysis}")
 
         progress.update_status("cathie_wood_agent", ticker, "Analyzing innovation-driven growth")
         innovation_analysis = analyze_innovation_growth(metrics, financial_line_items)
-
+        print(f"innovation_analysis: {innovation_analysis}")
+        
         progress.update_status("cathie_wood_agent", ticker, "Calculating valuation & high-growth scenario")
-        valuation_analysis = analyze_cathie_wood_valuation(financial_line_items, market_cap)
-
+        valuation_analysis = analyze_cathie_wood_valuation(financial_line_items, market_cap, prices)
+        print(f"valuation_analysis: {valuation_analysis}")
         # Combine partial scores or signals
         total_score = disruptive_analysis["score"] + innovation_analysis["score"] + valuation_analysis["score"]
         max_possible_score = 15  # Adjust weighting as desired
@@ -98,11 +112,13 @@ def cathie_wood_agent(state: AgentState):
             model_name=state["metadata"]["model_name"],
             model_provider=state["metadata"]["model_provider"],
         )
+        print(f"cw_output: {cw_output}")
 
         cw_analysis[ticker] = {
             "signal": cw_output.signal,
             "confidence": cw_output.confidence,
-            "reasoning": cw_output.reasoning
+            "reasoning": cw_output.reasoning,
+            "target_price_range": cw_output.target_price_range
         }
 
         progress.update_status("cathie_wood_agent", ticker, "Done")
@@ -350,7 +366,7 @@ def analyze_innovation_growth(metrics: list, financial_line_items: list) -> dict
     }
 
 
-def analyze_cathie_wood_valuation(financial_line_items: list, market_cap: float) -> dict:
+def analyze_cathie_wood_valuation(financial_line_items: list, market_cap: float, prices: list) -> dict:
     """
     Cathie Wood often focuses on long-term exponential growth potential. We can do
     a simplified approach looking for a large total addressable market (TAM) and the
@@ -401,7 +417,8 @@ def analyze_cathie_wood_valuation(financial_line_items: list, market_cap: float)
     details = [
         f"Calculated intrinsic value: ~{intrinsic_value:,.2f}",
         f"Market cap: ~{market_cap:,.2f}",
-        f"Margin of safety: {margin_of_safety:.2%}"
+        f"Margin of safety: {margin_of_safety:.2%}",
+        f"Price: ~{prices[-1].close:,.2f}"
     ]
 
     return {
@@ -436,7 +453,8 @@ def generate_cathie_wood_output(
             "- Evaluate strong potential for multi-year revenue growth.\n"
             "- Check if the company can scale effectively in a large market.\n"
             "- Use a growth-biased valuation approach.\n"
-            "- Provide a data-driven recommendation (bullish, bearish, or neutral)."""
+            "- Provide a data-driven recommendation (bullish, bearish, or neutral).\n"
+            "- Always include a target price range based on your analysis, and target price range must be in format "$X-$Y" (e.g. "$150-$200")"""
         ),
         (
             "human",
@@ -444,7 +462,7 @@ def generate_cathie_wood_output(
             "Analysis Data for {ticker}:\n"
             "{analysis_data}\n\n"
             "Return the trading signal in this JSON format:\n"
-            "{{\n  \"signal\": \"bullish/bearish/neutral\",\n  \"confidence\": float (0-100),\n  \"reasoning\": \"string\"\n}}"""
+            "{{\n  \"signal\": \"bullish/bearish/neutral\",\n  \"confidence\": float (0-100),\n  \"reasoning\": \"string\"\n "target_price_range": "string (format: $X-$Y)" \n}}"""
         )
     ])
 
@@ -457,7 +475,8 @@ def generate_cathie_wood_output(
         return CathieWoodSignal(
             signal="neutral",
             confidence=0.0,
-            reasoning="Error in analysis, defaulting to neutral"
+            reasoning="Error in analysis, defaulting to neutral",
+            target_price_range="0-0"
         )
 
     return call_llm(

@@ -17,7 +17,7 @@ class PriceResponse(BaseModel):
 
 class FinancialMetrics(BaseModel):
     ticker: str
-    calendar_date: str
+    calendar_date: str | None = None
     report_period: str
     period: str
     currency: str
@@ -130,6 +130,7 @@ class AnalystSignal(BaseModel):
     confidence: float | None = None
     reasoning: dict | str | None = None
     max_position_size: float | None = None  # For risk management signals
+    target_price_range: str | None = None
 
 
 class TickerAnalysis(BaseModel):

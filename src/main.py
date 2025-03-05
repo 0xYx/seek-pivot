@@ -25,7 +25,6 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from tabulate import tabulate
 from utils.visualize import save_graph_as_png
-
 # Load environment variables from .env file
 load_dotenv()
 
