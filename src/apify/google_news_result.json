@@ -1,0 +1,592 @@
+{
+    "search_metadata":{
+       "id":"67cd4c5684f6c08e3687b6f0",
+       "status":"Success",
+       "json_endpoint":"https://serpapi.com/searches/18f19e26bcfdf292/67cd4c5684f6c08e3687b6f0.json",
+       "created_at":"2025-03-09 08:07:50 UTC",
+       "processed_at":"2025-03-09 08:07:50 UTC",
+       "google_url":"https://www.google.com/search?q=vans&oq=vans&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+       "raw_html_file":"https://serpapi.com/searches/18f19e26bcfdf292/67cd4c5684f6c08e3687b6f0.html",
+       "total_time_taken":1.42
+    },
+    "search_parameters":{
+       "engine":"google",
+       "q":"vans",
+       "google_domain":"google.com",
+       "hl":"en",
+       "gl":"us",
+       "device":"desktop"
+    },
+    "search_information":{
+       "query_displayed":"vans",
+       "total_results":13970000000,
+       "time_taken_displayed":0.32,
+       "organic_results_state":"Results for exact spelling",
+       "results_for":"Tulsa County, OK"
+    },
+    "ads":[
+       {
+          "position":1,
+          "block_position":"top",
+          "title":"Vans® Official Site - Vans® Official",
+          "link":"https://www.vans.com/en-us/c/shoes/ultrarange-5140",
+          "displayed_link":"https://www.vans.com › vans › ultrarange",
+          "tracking_link":"https://www.google.com/aclk?sa=l&ai=DChcSEwj8gpfRxfyLAxXBS38AHV_PGzQYABABGgJvYQ&co=1&ase=2&gclid=EAIaIQobChMI_IKX0cX8iwMVwUt_AB1fzxs0EAAYASAAEgI5tvD_BwE&sig=AOD64_1-vJ3-dd84DdHy4esuoPc4nqZCDg&q&nis=4&adurl",
+          "description":"Every Little Bit Of The UltraRange Re-built With Sustainability In Mind. Shop Today. Re-engineered Because How We Get There Is Just As Important As Where We're Going. Gifts.",
+          "source":"Vans",
+          "sitelinks":[
+             {
+                "title":"Men's Sale",
+                "link":"https://www.vans.com/en-us/c/sale-5410?sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQwgUoAHoECAoQDQ"
+             }
+          ]
+       },
+       {
+          "position":2,
+          "block_position":"bottom",
+          "title":"Vans® Official Site - Vans® Official",
+          "link":"https://www.vans.com/en-us/p/shoes-00081/authentic-shoe-VN000EE3BLK",
+          "displayed_link":"https://www.vans.com › vans › authentic",
+          "tracking_link":"https://www.google.com/aclk?sa=l&ai=DChcSEwj8gpfRxfyLAxXBS38AHV_PGzQYABAAGgJvYQ&co=1&ase=2&gclid=EAIaIQobChMI_IKX0cX8iwMVwUt_AB1fzxs0EAMYASAAEgLFkvD_BwE&sig=AOD64_2AhRWkaJGuwHo_VjnrI_XEv9vQJw&q&nis=4&adurl",
+          "rating":4.6,
+          "extensions":[
+             "Rating for vans.com: 4.6 - 95 reviews"
+          ],
+          "reviews":95,
+          "description":"Buy In-Store At A Nearby Location Or Shop Online & Join The Vans Family For Free Shipping. Footwear and Apparel Inspired By Creativity, Authenticity & Passion. Free Member Shipping! New Arrivals. Find A Store. Custom Designs. Off The Wall Since 1996. Best Sellers.",
+          "address":"7021 South Memorial Drive Suite # 246B, Tulsa, OK",
+          "source":"Vans",
+          "sitelinks":[
+             {
+                "title":"Men's Sale",
+                "link":"https://www.vans.com/en-us/c/sale-5410"
+             },
+             {
+                "title":"Women's Sale",
+                "link":"https://www.vans.com/en-us/c/sale-5410"
+             },
+             {
+                "title":"In-Store Pick Up",
+                "link":"https://www.vans.com/en-us"
+             },
+             {
+                "title":"Kid's Sale",
+                "link":"https://www.vans.com/en-us/c/kids/shoes-3100"
+             },
+             {
+                "title":"The Slip-On",
+                "link":"https://www.vans.com/en-us/c/shoes/icons/classic-slip-on-5315"
+             },
+             {
+                "title":"Join Vans Family",
+                "link":"https://www.vans.com/en-us/family"
+             }
+          ]
+       }
+    ],
+    "local_map":{
+       "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&tbm=lcl&q=vans&rflfq=1&num=10&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQtgN6BAhGEAM",
+       "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/cbb636121b3aa12043d37161ccf82545.png"
+    },
+    "local_results":{
+       "places":[
+          {
+             "position":1,
+             "label":"A",
+             "lsig":"AB86z5WrGuKYvHwbfWsuVn0F-JRM",
+             "service_options":{
+                "in_store_pickup":true
+             },
+             "links":{
+                "website":"https://www.vans.com/?utm_source=yext&utm_medium=gmb&utm_campaign=tulsa-ok-official-usa374",
+                "directions":"https://www.google.com/maps/dir//Vans,+7021+S+Memorial+Dr+Suite+%23+246B,+Tulsa,+OK+74133/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x87b68d9716a58e35:0xe5a1c52da539a862?sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ48ADegQIJxAA&hl=en&gl=us"
+             },
+             "place_id":"16546723305772132450",
+             "place_id_search":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&ludocid=16546723305772132450&q=vans",
+             "gps_coordinates":{
+                "latitude":36.063637,
+                "longitude":-95.88301
+             },
+             "title":"Vans",
+             "phone":"(918) 252-0571",
+             "address":"Tulsa, OK",
+             "hours":"Open ⋅ Closes 6 PM"
+          },
+          {
+             "position":2,
+             "label":"B",
+             "lsig":"AB86z5W5VOChddZ3nYxersDpeDur",
+             "service_options":{
+                "in_store_pickup":true
+             },
+             "links":{
+                "website":"https://www.vans.com/?utm_source=yext&utm_medium=gmb&utm_campaign=oklahomacity-ok-official-usa345",
+                "directions":"https://www.google.com/maps/dir//Vans,+2501+W+Memorial+Rd+Suite+%23111,+Oklahoma+City,+OK+73134/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x87b21c5d6221cfe1:0x281ca89d5ae7a405?sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ48ADegQIKBAA&hl=en&gl=us"
+             },
+             "place_id":"2890370454653477893",
+             "place_id_search":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&ludocid=2890370454653477893&q=vans",
+             "gps_coordinates":{
+                "latitude":35.612926,
+                "longitude":-97.55838
+             },
+             "title":"Vans",
+             "phone":"(405) 748-5052",
+             "address":"Oklahoma City, OK",
+             "hours":"Open ⋅ Closes 6 PM"
+          }
+       ]
+    },
+    "knowledge_graph":{
+       "title":"Vans",
+       "type":"Apparel company",
+       "entity_type":"companies, chains, shopping_merchant",
+       "kgmid":"/m/04kbwy",
+       "knowledge_graph_search_link":"https://www.google.com/search?kgmid=/m/04kbwy&hl=en-US&q=Vans",
+       "serpapi_knowledge_graph_search_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fm%2F04kbwy&q=Vans",
+       "header_images":[
+          {
+             "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/108be90f5141601b4d7f77310b132a0d0b9dc1b1b5f72a95486d25a29b9f520361e55299b0719043.webp"
+          },
+          {
+             "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/108be90f5141601b4d7f77310b132a0d0b9dc1b1b5f72a954422231cca1bb6d7b2e48d763b4fa0a8.webp"
+          },
+          {
+             "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/108be90f5141601b4d7f77310b132a0d0b9dc1b1b5f72a9584912ef8d44b6931377103538e1c9e42.webp"
+          }
+       ],
+       "rating":4.6,
+       "review_count":90,
+       "website":"http://www.vans.com/",
+       "customer_service":"1 (855) 909-8267",
+       "founders":"Paul Van Doren, Serge D’Elia, Gordon Lee",
+       "founders_links":[
+          {
+             "text":"Paul Van Doren",
+             "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Paul+Van+Doren&si=APYL9btKi1TLoawpxIKkhA47KIc3RH36yjJAdk2TmwBtOZld-nslFmm1XkiYBbHP4PS1hBce9Cn2svz-MjSyXzNST7tsLiLACc3KEGtrtcnBAjvFypMt0RHjx9upAPwu0nPwW3VMhpKlCT2aSF4OJjNdtegU3BLGSkUEyh86t0gxuUU9VqBNvyEtSyAELkROeJBv6UDKVyOWd7Ivvkl-hjZPiPnOp74B0an8uphiyJCCpPAMTomVBWMxawYtsKtx_3PHEG6GeERS3725--T8oM974fMyYMK5zA%3D%3D&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQmxMoAHoECD8QAg"
+          },
+          {
+             "text":"Serge D’Elia",
+             "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Serge+D%E2%80%99Elia&si=APYL9btKi1TLoawpxIKkhA47KIc3RH36yjJAdk2TmwBtOZld-qPniP9LGqAvbw0QW0FwnbTYPw38BA1EXb6SjWzz36h2d8QGCB0EyfWwb5nQaKBjmGMh3gMmdGYEHMcGMB2AQB63WytWEG6xX7BHRu4ImO915YJJV-fwWVXQiHDwwzyPhODHBtu1KryCGj8UbEe48xIlm__AZGMyy_sXyGu-83fDu0IE6g44UECw3-14sSNQbxO21I0upbsdhjbRotB6zLceLuEx6sl24s51_UqzebT-2arUnw%3D%3D&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQmxMoAXoECD8QAw"
+          },
+          {
+             "text":"Gordon Lee",
+             "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Gordon+Lee&si=APYL9btKi1TLoawpxIKkhA47KIc3RH36yjJAdk2TmwBtOZld-mkzSxdclYhoCse76q6i6_c6aahLfjfLQtzgFhyqCvP9z2t9FVlekQHrLtG_hx5PtAxwfKZpB3rN9DC3mLI3gL7RI_V-UeujH0Oqp0jpIIqnQ2hZX8J8Z__biHMZHQthMpL9DiYU6ZzX-6H81BQjTDkY6wYlxmzJiS4EDY3TFdX23M-lLLYdZ3B3GXX1VqCkuSSeJSY_vewttUp9VnrUB49d5BUY_Q266ssB8LCUa9RbYAUJag%3D%3D&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQmxMoAnoECD8QBA"
+          }
+       ],
+       "founded":"March 16, 1966, Anaheim, CA",
+       "founded_links":[
+          {
+             "text":"Anaheim, CA",
+             "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Anaheim,+California&si=APYL9bu1Sl4M4TWndGcDs6ZL5WJXWNYEL_kgEEwAe0iMZIocdR-Pe3ADT_O4kfnzzVN9rWBH-rq6iLAFJIMzp4vdFG9lTwiSwbmqSQfg_YkhlTcR0c5giYo70iH9hiv_YVcBLVhD5SJxlA5tfnBOKFsAXuaUwW1ybXGfhaM0i_ruOxB8qtMo7NNwOOv5Bt9WuBEq2FGfxpOhbdNlByle8vzBOnuYZ8rt7Q%3D%3D&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQmxMoAHoECDUQAg"
+          }
+       ],
+       "headquarters":"Costa Mesa, CA",
+       "headquarters_links":[
+          {
+             "text":"Costa Mesa, CA",
+             "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Costa+Mesa&si=APYL9bu1Sl4M4TWndGcDs6ZL5WJXWNYEL_kgEEwAe0iMZIocdc7wdZmSlqzNmLeVyjUio3Rnzfs2lNt6vKKw-bDumwQ10JwC_RTDCXBDvqSb8AbcwsX_rJ9uMtXvtwfxkJp7eUYjWZCJHZwxLsd3uChGcgHqaAtco7nhEKQAEN9SKuQ20XxrSWFlOyE4s0CVr6OBwMMxWONS&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQmxMoAHoECDgQAg"
+          }
+       ],
+       "parent":"VF Outdoor",
+       "parent_links":[
+          {
+             "text":"VF Outdoor",
+             "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=VF+Outdoor&stick=H4sIAAAAAAAAAONgVuLUz9U3MK-MLytexMoV5qbgX1qSkp9fBADeYmp7GgAAAA&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQmxMoAHoECDkQAg"
+          }
+       ],
+       "web_results":[
+          {
+             "link":"https://en.wikipedia.org/wiki/Vans"
+          }
+       ]
+    },
+    "related_questions":[
+       {
+          "question":"What is the Vans company controversy?",
+          "snippet":"Industry and the hype surrounding certain shoe designs. However Vance contended that the similarity. Between the two designs was too great potentially leading consumers to mistakenly.",
+          "title":"Vans vs. MSCHF: The Truth Behind the Wavy Baby Lawsuit - YouTube",
+          "link":"https://www.youtube.com/watch?v=5iXR81qleCU",
+          "displayed_link":"None",
+          "source_logo":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a399dddcc2169a955a0cc6fe3eea54817cfb2b9d2a773e7522ce.png",
+          "next_page_token":"eyJvbnMiOiIyNjc5IiwiZmMiOiJFcUlDQ3VJQlFVRXRTMVJvWkc5d1JGYzNhVlpEY2pKdVdUTmFlSFpsYjFwRVVrSTJjWEF4YldKaGNISmhkbTFoVFMxVWVGbDBkV2Q1TVVOM05VOUlPVjlaVTJOMFZrbFBZMHhET1dSU1lWQktabVk1UW5kYWRtRkdjM1JqUVUxcVEwWjFZV2RaU2xoVGVWTTNOREZrZWt0VFNHcFROV3BXYm1kb2JIbHFjV1oyZW1kS2JEVXRNSEJUZFc5RE1sRjVUSEJzTFhaVGMxOXVSbXBXV2tGbmNtdHdNSFJST0RWaVRYTlplVTVRY2sxZmJGTlRiWHB1WjFwMWVFTjJaR1pOVFVoS1pERjNiVEUwZEVwU2VtUjJXRWN5VlVOaU1Va3lSMWQwZEhveGRWQmpaVEkwZFdGZlp4SVhWakI2VGxwZlRHaExTbTVtY0RnMFVITXRUMWt3UVVVYUlrRkRSRmhNTkcwM1ZuTjNTbEJKTTNVNExYWjBlbFZUUVhWMVFTMXdWVFppYUdjIiwiZmN2IjoiMyIsImVpIjoiVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUUiLCJxYyI6IkNnUjJZVzV6RUFCOUNzMHFQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgVmFucyBjb21wYW55IGNvbnRyb3ZlcnN5PyIsImxrIjoiR2lSM2FHRjBJR2x6SUhSb1pTQjJZVzV6SUdOdmJYQmhibmtnWTI5dWRISnZkbVZ5YzNrIiwiYnMiOiJjLU1LNGxJTnowZ3NVY2dzVmlqSlNGVUlTOHdyVmtqT3p5MUl6S3NFMG5rbFJmbGxxVVhGbGZZU2MwdU0xS1JVeXBIVWx1RlF5MlhCSlFFMk15VV90UmhpWW01cVlwNkNpWkdCdmNTT1dpTkpLZkZ5dUhRWnNqU1hDNWRjZUVhbFFrcG1Dc2lHU29YaWt2d0NoZHpFN015OGRMQkI5aEt6Sll6a3BXVExjU2tDR2NkbHhTWHBXQVQxUzBGLVFXbE9ZcEVDMEkyNS1VV3A5aExMUFl5a3BDUVNpNkR1UjVNWFlBUUEiLCJpZCI6ImZjX1Ywek5aX0xoS0puZnA4NFBzLU9ZMEFFXzMifQ==",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIyNjc5IiwiZmMiOiJFcUlDQ3VJQlFVRXRTMVJvWkc5d1JGYzNhVlpEY2pKdVdUTmFlSFpsYjFwRVVrSTJjWEF4YldKaGNISmhkbTFoVFMxVWVGbDBkV2Q1TVVOM05VOUlPVjlaVTJOMFZrbFBZMHhET1dSU1lWQktabVk1UW5kYWRtRkdjM1JqUVUxcVEwWjFZV2RaU2xoVGVWTTNOREZrZWt0VFNHcFROV3BXYm1kb2JIbHFjV1oyZW1kS2JEVXRNSEJUZFc5RE1sRjVUSEJzTFhaVGMxOXVSbXBXV2tGbmNtdHdNSFJST0RWaVRYTlplVTVRY2sxZmJGTlRiWHB1WjFwMWVFTjJaR1pOVFVoS1pERjNiVEUwZEVwU2VtUjJXRWN5VlVOaU1Va3lSMWQwZEhveGRWQmpaVEkwZFdGZlp4SVhWakI2VGxwZlRHaExTbTVtY0RnMFVITXRUMWt3UVVVYUlrRkRSRmhNTkcwM1ZuTjNTbEJKTTNVNExYWjBlbFZUUVhWMVFTMXdWVFppYUdjIiwiZmN2IjoiMyIsImVpIjoiVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUUiLCJxYyI6IkNnUjJZVzV6RUFCOUNzMHFQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgVmFucyBjb21wYW55IGNvbnRyb3ZlcnN5PyIsImxrIjoiR2lSM2FHRjBJR2x6SUhSb1pTQjJZVzV6SUdOdmJYQmhibmtnWTI5dWRISnZkbVZ5YzNrIiwiYnMiOiJjLU1LNGxJTnowZ3NVY2dzVmlqSlNGVUlTOHdyVmtqT3p5MUl6S3NFMG5rbFJmbGxxVVhGbGZZU2MwdU0xS1JVeXBIVWx1RlF5MlhCSlFFMk15VV90UmhpWW01cVlwNkNpWkdCdmNTT1dpTkpLZkZ5dUhRWnNqU1hDNWRjZUVhbFFrcG1Dc2lHU29YaWt2d0NoZHpFN015OGRMQkI5aEt6Sll6a3BXVExjU2tDR2NkbHhTWHBXQVQxUzBGLVFXbE9ZcEVDMEkyNS1VV3A5aExMUFl5a3BDUVNpNkR1UjVNWFlBUUEiLCJpZCI6ImZjX1Ywek5aX0xoS0puZnA4NFBzLU9ZMEFFXzMifQ%3D%3D"
+       },
+       {
+          "question":"What does Vans mean 420?",
+          "snippet":"Vans shoes were start in Los Angels in 1966 by The Van Doren Rubber Company, long before the hand held calculator and long before 420 represented weed, which was originated in 1971 at a San Rafael high school when students would repeatedly smoke weed at 4:20, which is now known as 420.",
+          "title":"B/R Kicks - The real meaning behind Vans @shmentoh | Facebook",
+          "date":"Mar 6, 2020",
+          "link":"https://www.facebook.com/BRKicks/posts/the-real-meaning-behind-vans-shmentoh/2843711999055145/#:~:text=Vans%20shoes%20were%20start%20in,is%20now%20known%20as%20420.",
+          "displayed_link":"https://www.facebook.com › BRKicks › posts › the-real-...",
+          "source_logo":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a399dddcc2169a955a0c0764d4e297b41b54d20786955259673b.png",
+          "next_page_token":"eyJvbnMiOiIyNjc5IiwiZmMiOiJFcUlDQ3VJQlFVRXRTMVJvWkc5d1JGYzNhVlpEY2pKdVdUTmFlSFpsYjFwRVVrSTJjWEF4YldKaGNISmhkbTFoVFMxVWVGbDBkV2Q1TVVOM05VOUlPVjlaVTJOMFZrbFBZMHhET1dSU1lWQktabVk1UW5kYWRtRkdjM1JqUVUxcVEwWjFZV2RaU2xoVGVWTTNOREZrZWt0VFNHcFROV3BXYm1kb2JIbHFjV1oyZW1kS2JEVXRNSEJUZFc5RE1sRjVUSEJzTFhaVGMxOXVSbXBXV2tGbmNtdHdNSFJST0RWaVRYTlplVTVRY2sxZmJGTlRiWHB1WjFwMWVFTjJaR1pOVFVoS1pERjNiVEUwZEVwU2VtUjJXRWN5VlVOaU1Va3lSMWQwZEhveGRWQmpaVEkwZFdGZlp4SVhWakI2VGxwZlRHaExTbTVtY0RnMFVITXRUMWt3UVVVYUlrRkRSRmhNTkcwM1ZuTjNTbEJKTTNVNExYWjBlbFZUUVhWMVFTMXdWVFppYUdjIiwiZmN2IjoiMyIsImVpIjoiVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUUiLCJxYyI6IkNnUjJZVzV6RUFCOUNzMHFQdyIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIFZhbnMgbWVhbiA0MjA/IiwibGsiOiJHaGQzYUdGMElHUnZaWE1nZG1GdWN5QnRaV0Z1SURReU1BIiwiYnMiOiJjLU1LNGxJTnowZ3NVY2dzVmlqSlNGVUlTOHdyVmtqT3p5MUl6S3NFMG5rbFJmbGxxVVhGbGZZU2MwdU0xS1JVeXBIVWx1RlF5MlhCSlFFMk15VV90UmhpWW01cVlwNkNpWkdCdmNTT1dpTkpLZkZ5dUhRWnNqU1hDNWRjZUVhbFFrcG1Dc2lHU29YaWt2d0NoZHpFN015OGRMQkI5aEt6Sll6a3BXVExjU2tDR2NkbHhTWHBXQVQxUzBGLVFXbE9ZcEVDMEkyNS1VV3A5aExMUFl5a3BDUVNpNkR1UjVNWFlBUUEiLCJpZCI6ImZjX1Ywek5aX0xoS0puZnA4NFBzLU9ZMEFFXzMifQ==",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIyNjc5IiwiZmMiOiJFcUlDQ3VJQlFVRXRTMVJvWkc5d1JGYzNhVlpEY2pKdVdUTmFlSFpsYjFwRVVrSTJjWEF4YldKaGNISmhkbTFoVFMxVWVGbDBkV2Q1TVVOM05VOUlPVjlaVTJOMFZrbFBZMHhET1dSU1lWQktabVk1UW5kYWRtRkdjM1JqUVUxcVEwWjFZV2RaU2xoVGVWTTNOREZrZWt0VFNHcFROV3BXYm1kb2JIbHFjV1oyZW1kS2JEVXRNSEJUZFc5RE1sRjVUSEJzTFhaVGMxOXVSbXBXV2tGbmNtdHdNSFJST0RWaVRYTlplVTVRY2sxZmJGTlRiWHB1WjFwMWVFTjJaR1pOVFVoS1pERjNiVEUwZEVwU2VtUjJXRWN5VlVOaU1Va3lSMWQwZEhveGRWQmpaVEkwZFdGZlp4SVhWakI2VGxwZlRHaExTbTVtY0RnMFVITXRUMWt3UVVVYUlrRkRSRmhNTkcwM1ZuTjNTbEJKTTNVNExYWjBlbFZUUVhWMVFTMXdWVFppYUdjIiwiZmN2IjoiMyIsImVpIjoiVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUUiLCJxYyI6IkNnUjJZVzV6RUFCOUNzMHFQdyIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIFZhbnMgbWVhbiA0MjA%2FIiwibGsiOiJHaGQzYUdGMElHUnZaWE1nZG1GdWN5QnRaV0Z1SURReU1BIiwiYnMiOiJjLU1LNGxJTnowZ3NVY2dzVmlqSlNGVUlTOHdyVmtqT3p5MUl6S3NFMG5rbFJmbGxxVVhGbGZZU2MwdU0xS1JVeXBIVWx1RlF5MlhCSlFFMk15VV90UmhpWW01cVlwNkNpWkdCdmNTT1dpTkpLZkZ5dUhRWnNqU1hDNWRjZUVhbFFrcG1Dc2lHU29YaWt2d0NoZHpFN015OGRMQkI5aEt6Sll6a3BXVExjU2tDR2NkbHhTWHBXQVQxUzBGLVFXbE9ZcEVDMEkyNS1VV3A5aExMUFl5a3BDUVNpNkR1UjVNWFlBUUEiLCJpZCI6ImZjX1Ywek5aX0xoS0puZnA4NFBzLU9ZMEFFXzMifQ%3D%3D"
+       },
+       {
+          "question":"Why did they stop making Vans?",
+          "snippet":"By the mid-2010s, compact cargo van sales had dropped dramatically. In response, most major automakers chose to discontinue their models. The Chevy Astro and GMC Safari were retired in 2005, and Ford's Transit Connect now fills the slot once held by the Aerostar.",
+          "title":"The End of an Era: Why Compact Vans Are Disappearing in 2024",
+          "link":"https://www.wilmarinc.com/blog/the-end-of-an-era-why-compact-vans-are-disappearing-in-2024#:~:text=By%20the%20mid%2D2010s%2C%20compact,once%20held%20by%20the%20Aerostar.",
+          "displayed_link":"https://www.wilmarinc.com › blog › the-end-of-an-era-w...",
+          "source_logo":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a399dddcc2169a955a0c439d5e92daaa0cf889925f50e72250a6.png",
+          "next_page_token":"eyJvbnMiOiIyNjc5IiwiZmMiOiJFcUlDQ3VJQlFVRXRTMVJvWkc5d1JGYzNhVlpEY2pKdVdUTmFlSFpsYjFwRVVrSTJjWEF4YldKaGNISmhkbTFoVFMxVWVGbDBkV2Q1TVVOM05VOUlPVjlaVTJOMFZrbFBZMHhET1dSU1lWQktabVk1UW5kYWRtRkdjM1JqUVUxcVEwWjFZV2RaU2xoVGVWTTNOREZrZWt0VFNHcFROV3BXYm1kb2JIbHFjV1oyZW1kS2JEVXRNSEJUZFc5RE1sRjVUSEJzTFhaVGMxOXVSbXBXV2tGbmNtdHdNSFJST0RWaVRYTlplVTVRY2sxZmJGTlRiWHB1WjFwMWVFTjJaR1pOVFVoS1pERjNiVEUwZEVwU2VtUjJXRWN5VlVOaU1Va3lSMWQwZEhveGRWQmpaVEkwZFdGZlp4SVhWakI2VGxwZlRHaExTbTVtY0RnMFVITXRUMWt3UVVVYUlrRkRSRmhNTkcwM1ZuTjNTbEJKTTNVNExYWjBlbFZUUVhWMVFTMXdWVFppYUdjIiwiZmN2IjoiMyIsImVpIjoiVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUUiLCJxYyI6IkNnUjJZVzV6RUFCOUNzMHFQdyIsInF1ZXN0aW9uIjoiV2h5IGRpZCB0aGV5IHN0b3AgbWFraW5nIFZhbnM/IiwibGsiOiJHaDEzYUhrZ1pHbGtJSFJvWlhrZ2MzUnZjQ0J0WVd0cGJtY2dkbUZ1Y3ciLCJicyI6ImMtTUs0bElOejBnc1VjZ3NWaWpKU0ZVSVM4d3JWa2pPenkxSXpLc0UwbmtsUmZsbHFVWEZsZllTYzB1TTFLUlV5cEhVbHVGUXkyWEJKUUUyTXlVX3RSaGlZbTVxWXA2Q2laR0J2Y1NPV2lOSktmRnl1SFFac2pTWEM1ZGNlRWFsUWtwbUNzaUdTb1hpa3Z3Q2hkekU3TXk4ZExCQjloS3pKWXprcFdUTGNTa0NHY2RseFNYcFdBVDFTMEYtUVdsT1lwRUMwSTI1LVVXcDloTExQWXlrcENRU2k2RHVSNU1YWUFRQSIsImlkIjoiZmNfVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUVfMyJ9",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIyNjc5IiwiZmMiOiJFcUlDQ3VJQlFVRXRTMVJvWkc5d1JGYzNhVlpEY2pKdVdUTmFlSFpsYjFwRVVrSTJjWEF4YldKaGNISmhkbTFoVFMxVWVGbDBkV2Q1TVVOM05VOUlPVjlaVTJOMFZrbFBZMHhET1dSU1lWQktabVk1UW5kYWRtRkdjM1JqUVUxcVEwWjFZV2RaU2xoVGVWTTNOREZrZWt0VFNHcFROV3BXYm1kb2JIbHFjV1oyZW1kS2JEVXRNSEJUZFc5RE1sRjVUSEJzTFhaVGMxOXVSbXBXV2tGbmNtdHdNSFJST0RWaVRYTlplVTVRY2sxZmJGTlRiWHB1WjFwMWVFTjJaR1pOVFVoS1pERjNiVEUwZEVwU2VtUjJXRWN5VlVOaU1Va3lSMWQwZEhveGRWQmpaVEkwZFdGZlp4SVhWakI2VGxwZlRHaExTbTVtY0RnMFVITXRUMWt3UVVVYUlrRkRSRmhNTkcwM1ZuTjNTbEJKTTNVNExYWjBlbFZUUVhWMVFTMXdWVFppYUdjIiwiZmN2IjoiMyIsImVpIjoiVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUUiLCJxYyI6IkNnUjJZVzV6RUFCOUNzMHFQdyIsInF1ZXN0aW9uIjoiV2h5IGRpZCB0aGV5IHN0b3AgbWFraW5nIFZhbnM%2FIiwibGsiOiJHaDEzYUhrZ1pHbGtJSFJvWlhrZ2MzUnZjQ0J0WVd0cGJtY2dkbUZ1Y3ciLCJicyI6ImMtTUs0bElOejBnc1VjZ3NWaWpKU0ZVSVM4d3JWa2pPenkxSXpLc0UwbmtsUmZsbHFVWEZsZllTYzB1TTFLUlV5cEhVbHVGUXkyWEJKUUUyTXlVX3RSaGlZbTVxWXA2Q2laR0J2Y1NPV2lOSktmRnl1SFFac2pTWEM1ZGNlRWFsUWtwbUNzaUdTb1hpa3Z3Q2hkekU3TXk4ZExCQjloS3pKWXprcFdUTGNTa0NHY2RseFNYcFdBVDFTMEYtUVdsT1lwRUMwSTI1LVVXcDloTExQWXlrcENRU2k2RHVSNU1YWUFRQSIsImlkIjoiZmNfVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUVfMyJ9"
+       },
+       {
+          "question":"Are Vans popular anymore?",
+          "snippet":"Vans have always been popular, but they've faded into the background in recent years, replaced by sportier picks like those inescapable Sambas, sleek Onitsuka Tigers, and royals-beloved Vejas. Now the tide is turning back to the breezier, more easygoing Vans.",
+          "title":"These Vans Are Spring's It Sneaker–We Styled Them Three Ways",
+          "date":"Mar 21, 2024",
+          "link":"https://www.glamour.com/story/slip-on-vans-trend#:~:text=Vans%20have%20always%20been%20popular,the%20breezier%2C%20more%20easygoing%20Vans.",
+          "displayed_link":"https://www.glamour.com › story › slip-on-vans-trend",
+          "source_logo":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a399dddcc2169a955a0cc35a79dd59d2aec89594df59e56212f0.png",
+          "next_page_token":"eyJvbnMiOiIyNjc5IiwiZmMiOiJFcUlDQ3VJQlFVRXRTMVJvWkc5d1JGYzNhVlpEY2pKdVdUTmFlSFpsYjFwRVVrSTJjWEF4YldKaGNISmhkbTFoVFMxVWVGbDBkV2Q1TVVOM05VOUlPVjlaVTJOMFZrbFBZMHhET1dSU1lWQktabVk1UW5kYWRtRkdjM1JqUVUxcVEwWjFZV2RaU2xoVGVWTTNOREZrZWt0VFNHcFROV3BXYm1kb2JIbHFjV1oyZW1kS2JEVXRNSEJUZFc5RE1sRjVUSEJzTFhaVGMxOXVSbXBXV2tGbmNtdHdNSFJST0RWaVRYTlplVTVRY2sxZmJGTlRiWHB1WjFwMWVFTjJaR1pOVFVoS1pERjNiVEUwZEVwU2VtUjJXRWN5VlVOaU1Va3lSMWQwZEhveGRWQmpaVEkwZFdGZlp4SVhWakI2VGxwZlRHaExTbTVtY0RnMFVITXRUMWt3UVVVYUlrRkRSRmhNTkcwM1ZuTjNTbEJKTTNVNExYWjBlbFZUUVhWMVFTMXdWVFppYUdjIiwiZmN2IjoiMyIsImVpIjoiVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUUiLCJxYyI6IkNnUjJZVzV6RUFCOUNzMHFQdyIsInF1ZXN0aW9uIjoiQXJlIFZhbnMgcG9wdWxhciBhbnltb3JlPyIsImxrIjoiR2hoaGNtVWdkbUZ1Y3lCd2IzQjFiR0Z5SUdGdWVXMXZjbVUiLCJicyI6ImMtTUs0bElOejBnc1VjZ3NWaWpKU0ZVSVM4d3JWa2pPenkxSXpLc0UwbmtsUmZsbHFVWEZsZllTYzB1TTFLUlV5cEhVbHVGUXkyWEJKUUUyTXlVX3RSaGlZbTVxWXA2Q2laR0J2Y1NPV2lOSktmRnl1SFFac2pTWEM1ZGNlRWFsUWtwbUNzaUdTb1hpa3Z3Q2hkekU3TXk4ZExCQjloS3pKWXprcFdUTGNTa0NHY2RseFNYcFdBVDFTMEYtUVdsT1lwRUMwSTI1LVVXcDloTExQWXlrcENRU2k2RHVSNU1YWUFRQSIsImlkIjoiZmNfVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUVfMyJ9",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIyNjc5IiwiZmMiOiJFcUlDQ3VJQlFVRXRTMVJvWkc5d1JGYzNhVlpEY2pKdVdUTmFlSFpsYjFwRVVrSTJjWEF4YldKaGNISmhkbTFoVFMxVWVGbDBkV2Q1TVVOM05VOUlPVjlaVTJOMFZrbFBZMHhET1dSU1lWQktabVk1UW5kYWRtRkdjM1JqUVUxcVEwWjFZV2RaU2xoVGVWTTNOREZrZWt0VFNHcFROV3BXYm1kb2JIbHFjV1oyZW1kS2JEVXRNSEJUZFc5RE1sRjVUSEJzTFhaVGMxOXVSbXBXV2tGbmNtdHdNSFJST0RWaVRYTlplVTVRY2sxZmJGTlRiWHB1WjFwMWVFTjJaR1pOVFVoS1pERjNiVEUwZEVwU2VtUjJXRWN5VlVOaU1Va3lSMWQwZEhveGRWQmpaVEkwZFdGZlp4SVhWakI2VGxwZlRHaExTbTVtY0RnMFVITXRUMWt3UVVVYUlrRkRSRmhNTkcwM1ZuTjNTbEJKTTNVNExYWjBlbFZUUVhWMVFTMXdWVFppYUdjIiwiZmN2IjoiMyIsImVpIjoiVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUUiLCJxYyI6IkNnUjJZVzV6RUFCOUNzMHFQdyIsInF1ZXN0aW9uIjoiQXJlIFZhbnMgcG9wdWxhciBhbnltb3JlPyIsImxrIjoiR2hoaGNtVWdkbUZ1Y3lCd2IzQjFiR0Z5SUdGdWVXMXZjbVUiLCJicyI6ImMtTUs0bElOejBnc1VjZ3NWaWpKU0ZVSVM4d3JWa2pPenkxSXpLc0UwbmtsUmZsbHFVWEZsZllTYzB1TTFLUlV5cEhVbHVGUXkyWEJKUUUyTXlVX3RSaGlZbTVxWXA2Q2laR0J2Y1NPV2lOSktmRnl1SFFac2pTWEM1ZGNlRWFsUWtwbUNzaUdTb1hpa3Z3Q2hkekU3TXk4ZExCQjloS3pKWXprcFdUTGNTa0NHY2RseFNYcFdBVDFTMEYtUVdsT1lwRUMwSTI1LVVXcDloTExQWXlrcENRU2k2RHVSNU1YWUFRQSIsImlkIjoiZmNfVjB6TlpfTGhLSm5mcDg0UHMtT1kwQUVfMyJ9"
+       }
+    ],
+    "organic_results":[
+       {
+          "position":1,
+          "title":"Vans®. Off the Wall Since '66. Vans.com | Vans US",
+          "link":"https://www.vans.com/",
+          "redirect_link":"https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.vans.com/&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQFnoECAwQAQ",
+          "displayed_link":"https://www.vans.com",
+          "favicon":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/ae5ca0b23e3ff522ec2b4671c1fb8d077392912cbdd98a12158553c8beaeab09.png",
+          "snippet":"The Premium Old Skool™ Music Collection · Meet The Super Lowpro · Off The Grid In The Crosspath XC · New & Trending · Your Privacy Choices. We use cookies and ...",
+          "sitelinks":{
+             "expanded":[
+                {
+                   "title":"Shoes & Sneakers",
+                   "link":"https://www.vans.com/en-us/c/shoes-00081",
+                   "snippet":"Shoes & Sneakers ... A person sitting on a metal barrel wearing ..."
+                },
+                {
+                   "title":"Kids",
+                   "link":"https://www.vans.com/en-us/c/kids-0003",
+                   "snippet":"We've organized sneakers for kids by style for your convenience ..."
+                },
+                {
+                   "title":"Mens",
+                   "link":"https://www.vans.com/en-us/c/mens-0001",
+                   "snippet":"From skate shoes to slip ons—we've got you covered. Find your ..."
+                },
+                {
+                   "title":"Sale",
+                   "link":"https://www.vans.com/en-us/c/sale-5410",
+                   "snippet":"Find discounted men's and women's Vans that deliver style without ..."
+                },
+                {
+                   "title":"Womens",
+                   "link":"https://www.vans.com/en-us/womens-c0002",
+                   "snippet":"Any style you want, we're ready for you with colors, designs, and ..."
+                }
+             ]
+          },
+          "source":"Vans"
+       },
+       {
+          "position":2,
+          "title":"Vans EU | Men's, Women's & Kids' Shoes | Clothes & Backpacks",
+          "link":"https://www.vans.eu/",
+          "redirect_link":"https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.vans.eu/&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQFnoECFQQAQ",
+          "displayed_link":"https://www.vans.eu",
+          "favicon":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/ae5ca0b23e3ff522ec2b4671c1fb8d0799c74ea091d92e5138c272a6a9d510a6.png",
+          "snippet":"Shop new-season looks from the latest range of men's, women's and kids' shoes, clothes and backpacks at Vans. Get FREE delivery & returns EU-wide.",
+          "snippet_highlighted_words":[
+             "men's, women's and kids' shoes, clothes and backpacks at Vans"
+          ],
+          "source":"Vans EU"
+       },
+       {
+          "position":3,
+          "title":"Vans",
+          "link":"https://www.youtube.com/vans",
+          "redirect_link":"https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/vans&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQFnoECFIQAQ",
+          "displayed_link":"691K+ followers",
+          "favicon":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/ae5ca0b23e3ff522ec2b4671c1fb8d0770969f1e2569b5b10118ef10e37212d4.png",
+          "snippet":"Sidestripe Sessions | VANS · Celebrating creative diversity in music and art, the video series highlights Vans' extended family of musicians through a two-song ...",
+          "snippet_highlighted_words":[
+             "Celebrating creative diversity in music and art"
+          ],
+          "source":"YouTube · Vans"
+       },
+       {
+          "position":4,
+          "title":"Vans Shoes & Apparel",
+          "link":"https://www.zappos.com/c/vans",
+          "redirect_link":"https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.zappos.com/c/vans&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQFnoECFgQAQ",
+          "displayed_link":"https://www.zappos.com › vans",
+          "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXeFPOLEUvFZWxQkp79rQHvqCM1ng5801f33P0lJ6KuMZ3QFNxVsyY&s",
+          "favicon":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/ae5ca0b23e3ff522ec2b4671c1fb8d07fa6fdeea5ab173968e279156cb08868c.png",
+          "snippet":"Discover the latest shoe styles when you shop for Vans footwear at Zappos. Browse through the complete collection featuring Vans clothing and accessories.",
+          "snippet_highlighted_words":[
+             "Vans footwear at Zappos"
+          ],
+          "source":"Zappos.com"
+       },
+       {
+          "position":5,
+          "title":"vans • Instagram photos and videos",
+          "link":"https://www.instagram.com/vans/?hl=en",
+          "redirect_link":"https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/vans/%3Fhl%3Den&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQFnoECFMQAQ",
+          "displayed_link":"16.2M+ followers",
+          "favicon":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/ae5ca0b23e3ff522ec2b4671c1fb8d076f25b6378587d38dfc469aa754bc00f4.png",
+          "snippet":"16M Followers, 335 Following, 4725 Posts - @vans on Instagram: \"#AlwaysPushing \"",
+          "snippet_highlighted_words":[
+             "16M Followers, 335 Following, 4725 Posts"
+          ],
+          "source":"Instagram · vans"
+       },
+       {
+          "position":6,
+          "title":"Vans",
+          "link":"https://en.wikipedia.org/wiki/Vans",
+          "redirect_link":"https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Vans&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQFnoECFUQAQ",
+          "displayed_link":"https://en.wikipedia.org › wiki › Vans",
+          "favicon":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/ae5ca0b23e3ff522ec2b4671c1fb8d072fbcaed2bc833cf88810a49e0d280587.png",
+          "snippet":"Vans is an American apparel, accessories, and skateboarding shoes brand, established in Anaheim, California, and owned by VF Corporation.",
+          "snippet_highlighted_words":[
+             "an American apparel, accessories, and skateboarding shoes brand"
+          ],
+          "source":"Wikipedia"
+       }
+    ],
+    "perspectives":[
+       {
+          "author":"vans",
+          "source":"Instagram",
+          "thumbnails":[
+             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmS0VBptylPTf1hRgyCeWOvvoBD0RcNkeG-g4GfAwGnJ_0mub12RDsRLUmDw&usqp=CAI&s"
+          ],
+          "title":"Checkerboard goes with anything. 🏁 New colorways of the Premium Old Skool. Available on Vans.com and in stores. Photography: @mattjonesphotography_ Styling: @dianne",
+          "link":"https://www.instagram.com/vans/p/DG591q0PCXB/",
+          "date":"11.1K+ likes"
+       },
+       {
+          "author":"r/Sneakers",
+          "source":"Reddit",
+          "thumbnails":[
+             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQtmprrE4p-IJAzW4oG_KJ0aqgp2p0RS2_9QzYWzUpD7ht1ErH8mvFB5Gy&usqp=CAI&s"
+          ],
+          "title":"Is anyone still wearing vans these days?",
+          "link":"https://www.reddit.com/r/Sneakers/comments/1j4fmyr/is_anyone_still_wearing_vans_these_days/",
+          "date":"70+ comments"
+       },
+       {
+          "author":"Vans",
+          "source":"YouTube",
+          "thumbnails":[
+             "https://img.youtube.com/vi/TW7oNDaIOrk/hqdefault.jpg"
+          ],
+          "title":"The Vans Old Skool Through The Eras | VANS",
+          "link":"https://www.youtube.com/watch?v=TW7oNDaIOrk",
+          "date":"3.9K+ views"
+       },
+       {
+          "author":"vansphmanila",
+          "source":"Facebook",
+          "thumbnails":[
+             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLds4sH-eXsqcQ4MFg_7rkfShsWCDdpZXypYDN-DASVfz1X2wW0YCxk9F&usqp=CAI&s"
+          ],
+          "title":"Vans - Vans added a new photo.",
+          "link":"https://www.facebook.com/photo.php?fbid=1049172253907369&id=100064438129763&set=a.715510617273536",
+          "date":"5.4K+ reactions"
+       },
+       {
+          "author":"r/Vans",
+          "source":"Reddit",
+          "title":"Anyone buy new Vans lately?",
+          "link":"https://www.reddit.com/r/Vans/comments/1j0osy2/anyone_buy_new_vans_lately/",
+          "date":"10+ comments"
+       },
+       {
+          "author":"Vans",
+          "source":"TikTok",
+          "thumbnails":[
+             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHt0jFJf-dIRlASft-Y4_d8Sv-8vCQkoCnrcqDbrXOog0mh4bswVM1ZjGLHg&usqp=CAI&s"
+          ],
+          "title":"Exploring the Evolution of Vans Old Skool Sneakers",
+          "link":"https://www.tiktok.com/@vans/video/7470950410350726446",
+          "date":"11.1K+ views"
+       },
+       {
+          "author":"rankmagazine",
+          "source":"Instagram",
+          "thumbnails":[
+             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZC_1ciyokbXxQbDqdJWC1hjpjbUVspuwTsPkg3cXJW-BFcXjcwv76OZIOWg&usqp=CAI&s"
+          ],
+          "title":"LOOK: Vans unveils a new, contemporary look into its heritage style with the upcoming drop of the Super LowPro silhouette, bannering tradition, function, and innovation. The collection harks back to the iconic Vans Serio Line and the classic Style 84, elevating the designs to new world style sensibilities and functionality with modern technology and updated materials that make for enhanced flexibility. The Super LowPro collection comes in various color ways of Marshmallow, Fairway Green, Racing Red, and Black/White, dropping in time for International Women’s Day this March 8 across Vans branches in the country. Learn more on www.rankthemag.ph Images courtesy of Vans Philippines (@vansphilippines)",
+          "link":"https://www.instagram.com/rankmagazine/p/DGvCpJjBkPA/",
+          "date":"20+ likes"
+       },
+       {
+          "author":"anaheimducks",
+          "source":"Facebook",
+          "thumbnails":[
+             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdX495Ha59ARJoYc-vpb-3Qu19mkR5laxSyMHMlef5&usqp=CAI&s"
+          ],
+          "title":"Ducks x Vans Shoes Winners Announced | The newest Ducks × Vans shoes are here! Orange Country voted, and we ...",
+          "link":"https://www.facebook.com/anaheimducks/videos/ducks-x-vans-shoes-winners-announced/2188035038318004/",
+          "date":"340+ reactions"
+       },
+       {
+          "author":"a_ngiemarie",
+          "source":"Instagram",
+          "thumbnails":[
+             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEifZ9Xjqf8MDMy83iWu6WTVcEhA2M1BGQ7xGepMoWR4UsKXhQyj8A8W-jcg&usqp=CAI&s"
+          ],
+          "title":"love me some old skools @vans 🤌🏼\\U0001fa75 #vans #giftedbyvans",
+          "link":"https://www.instagram.com/a_ngiemarie/reel/DGoYrA3yxVr/",
+          "date":"4.3K+ likes"
+       },
+       {
+          "author":"PabloEscoburner",
+          "source":"X (Twitter)",
+          "snippet":"Push Off Nelson Back at it again with the white Vans",
+          "link":"https://twitter.com/PabloEscoburner/status/1898457809450348624?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+          "date":"13 hours ago"
+       },
+       {
+          "author":"Fill's Lawn Care - Shorts",
+          "source":"YouTube",
+          "thumbnails":[
+             "https://img.youtube.com/vi/daIctTfUwe4/hqdefault.jpg"
+          ],
+          "title":"These UNDERCOVER Vans Are Trying Real Hard These Days 😂",
+          "link":"https://www.youtube.com/shorts/daIctTfUwe4",
+          "date":"1.1K+ views"
+       },
+       {
+          "author":"JaySkateDay",
+          "source":"YouTube",
+          "thumbnails":[
+             "https://img.youtube.com/vi/aRlFPm2OtFY/hqdefault.jpg"
+          ],
+          "title":"Vans Skate Old Skool 36 Plus is a game changer!",
+          "link":"https://www.youtube.com/watch?v=aRlFPm2OtFY",
+          "date":"4K+ views"
+       }
+    ],
+    "related_searches":[
+       {
+          "block_position":1,
+          "items":[
+             {
+                "name":"Converse",
+                "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a39965f3abfa0e1f93c34de0c1f3ed72c876995e7ffa87f744d60a6760b0a52d9d5f.gif",
+                "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Converse&stick=H4sIAAAAAAAAAAFWAKn_CDEiCS9tLzAxNDBkMvoBALAEAKIFCENvbnZlcnNl2gYZAFZOV_NhmMMG7r56ZnNgIQopmlviwN46rqIIFlBlb3BsZSBhbHNvIHNlYXJjaCBmb3KoCAEWTSMYVgAAAA&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQs9oBKAB6BAheEAk",
+                "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Converse&stick=H4sIAAAAAAAAAAFWAKn_CDEiCS9tLzAxNDBkMvoBALAEAKIFCENvbnZlcnNl2gYZAFZOV_NhmMMG7r56ZnNgIQopmlviwN46rqIIFlBlb3BsZSBhbHNvIHNlYXJjaCBmb3KoCAEWTSMYVgAAAA"
+             },
+             {
+                "name":"Nike",
+                "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a39965f3abfa0e1f93c34de0c1f3ed72c87641fa3f93a3844ad7e0c0feee67e5a65d.gif",
+                "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Nike&stick=H4sIAAAAAAAAAAFRAK7_CDEiCC9tLzBsd2to-gEAsAQAogUETmlrZdoGGQBWTlfzYZjDBu6-emZzYCEKKZpb4sDeOq6iCBZQZW9wbGUgYWxzbyBzZWFyY2ggZm9yqAgBjdIFxlEAAAA&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQs9oBKAB6BAheEA4",
+                "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Nike&stick=H4sIAAAAAAAAAAFRAK7_CDEiCC9tLzBsd2to-gEAsAQAogUETmlrZdoGGQBWTlfzYZjDBu6-emZzYCEKKZpb4sDeOq6iCBZQZW9wbGUgYWxzbyBzZWFyY2ggZm9yqAgBjdIFxlEAAAA"
+             },
+             {
+                "name":"adidas",
+                "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a39965f3abfa0e1f93c34de0c1f3ed72c87613fdb2f318322dcf60222bd08440574c.gif",
+                "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=adidas&stick=H4sIAAAAAAAAAAFUAKv_CDEiCS9tLzAxanRtbPoBALAEAKIFBmFkaWRhc9oGGQBWTlfzYZjDBu6-emZzYCEKKZpb4sDeOq6iCBZQZW9wbGUgYWxzbyBzZWFyY2ggZm9yqAgBSJrr1FQAAAA&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQs9oBKAB6BAheEBM",
+                "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=adidas&stick=H4sIAAAAAAAAAAFUAKv_CDEiCS9tLzAxanRtbPoBALAEAKIFBmFkaWRhc9oGGQBWTlfzYZjDBu6-emZzYCEKKZpb4sDeOq6iCBZQZW9wbGUgYWxzbyBzZWFyY2ggZm9yqAgBSJrr1FQAAAA"
+             },
+             {
+                "name":"PUMA",
+                "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a39965f3abfa0e1f93c34de0c1f3ed72c876b9e13d3be530c86b77e47fae687d65ed.gif",
+                "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=PUMA&stick=H4sIAAAAAAAAAAFSAK3_CDEiCS9tLzAzcl9uX_oBALAEAKIFBFBVTUHaBhkAVk5X82GYwwbuvnpmc2AhCimaW-LA3jquoggWUGVvcGxlIGFsc28gc2VhcmNoIGZvcqgIAcbwqg5SAAAA&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQs9oBKAB6BAheEBg",
+                "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=PUMA&stick=H4sIAAAAAAAAAAFSAK3_CDEiCS9tLzAzcl9uX_oBALAEAKIFBFBVTUHaBhkAVk5X82GYwwbuvnpmc2AhCimaW-LA3jquoggWUGVvcGxlIGFsc28gc2VhcmNoIGZvcqgIAcbwqg5SAAAA"
+             },
+             {
+                "name":"UGG",
+                "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a39965f3abfa0e1f93c34de0c1f3ed72c8763760d986966a964c28e5a79340269ee2.gif",
+                "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=UGG&stick=H4sIAAAAAAAAAAFTAKz_CDEiCy9nLzEyMTUxN2Ix-gEAsAQAogUDVUdH2gYZAFZOV_NhmMMG7r56ZnNgIQopmlviwN46rqIIFlBlb3BsZSBhbHNvIHNlYXJjaCBmb3KoCAFFsBxeUwAAAA&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQs9oBKAB6BAheEB0",
+                "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=UGG&stick=H4sIAAAAAAAAAAFTAKz_CDEiCy9nLzEyMTUxN2Ix-gEAsAQAogUDVUdH2gYZAFZOV_NhmMMG7r56ZnNgIQopmlviwN46rqIIFlBlb3BsZSBhbHNvIHNlYXJjaCBmb3KoCAFFsBxeUwAAAA"
+             },
+             {
+                "name":"Crocs",
+                "image":"https://serpapi.com/searches/67cd4c5684f6c08e3687b6f0/images/68b308dd9974a39965f3abfa0e1f93c34de0c1f3ed72c8761f447f87ce4d50e6c0a27438568c488e.gif",
+                "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Crocs&stick=H4sIAAAAAAAAAAFUAKv_CDEiCi9tLzA2NGJzbWP6AQCwBACiBQVDcm9jc9oGGQBWTlfzYZjDBu6-emZzYCEKKZpb4sDeOq6iCBZQZW9wbGUgYWxzbyBzZWFyY2ggZm9yqAgB-hS-V1QAAAA&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQs9oBKAB6BAheECI",
+                "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Crocs&stick=H4sIAAAAAAAAAAFUAKv_CDEiCi9tLzA2NGJzbWP6AQCwBACiBQVDcm9jc9oGGQBWTlfzYZjDBu6-emZzYCEKKZpb4sDeOq6iCBZQZW9wbGUgYWxzbyBzZWFyY2ggZm9yqAgB-hS-V1QAAAA"
+             }
+          ]
+       },
+       {
+          "block_position":1,
+          "query":"Vans shoes",
+          "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Vans+shoes&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ1QJ6BQiQARAB",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Vans+shoes"
+       },
+       {
+          "block_position":1,
+          "query":"Vans Old Skool",
+          "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Vans+Old+Skool&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ1QJ6BQiKARAB",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Vans+Old+Skool"
+       },
+       {
+          "block_position":1,
+          "query":"Vans Outlet",
+          "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Vans+Outlet&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ1QJ6BQiFARAB",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Vans+Outlet"
+       },
+       {
+          "block_position":1,
+          "query":"Vans Knu Skool",
+          "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Vans+Knu+Skool&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ1QJ6BAhlEAE",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Vans+Knu+Skool"
+       },
+       {
+          "block_position":1,
+          "query":"Vans promo code",
+          "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Vans+promo+code&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ1QJ6BQiDARAB",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Vans+promo+code"
+       },
+       {
+          "block_position":1,
+          "query":"Vans near me",
+          "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Vans+near+me&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ1QJ6BAh_EAE",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Vans+near+me"
+       },
+       {
+          "block_position":1,
+          "query":"Vans MTE",
+          "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Vans+MTE&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ1QJ6BAh3EAE",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Vans+MTE"
+       },
+       {
+          "block_position":1,
+          "query":"Vans india",
+          "link":"https://www.google.com/search?sca_esv=6a767f95486c4a4c&gl=us&hl=en&q=Vans+india&sa=X&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ1QJ6BAhmEAE",
+          "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Vans+india"
+       }
+    ],
+    "pagination":{
+       "current":1,
+       "next":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=10&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8NMDegQIURAW",
+       "other_pages":{
+          "2":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=10&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8tMDegQIURAE",
+          "3":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=20&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8tMDegQIURAG",
+          "4":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=30&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8tMDegQIURAI",
+          "5":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=40&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8tMDegQIURAK",
+          "6":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=50&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8tMDegQIURAM",
+          "7":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=60&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8tMDegQIURAO",
+          "8":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=70&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8tMDegQIURAQ",
+          "9":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=80&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8tMDegQIURAS",
+          "10":"https://www.google.com/search?q=vans&sca_esv=6a767f95486c4a4c&gl=us&hl=en&ei=V0zNZ_LhKJnfp84Ps-OY0AE&start=90&sa=N&sstk=Af40H4V_fB05iXbH5dwN4wpzeC4Z43u12XDdTMjb8JfUSv9XCMaXM4FWE18sN5e-GoSloRcdo9bwbvCsgT-cnH5DulF2Q_WwZh3DjA&ved=2ahUKEwiy6ZLRxfyLAxWZ78kDHbMxBhoQ8tMDegQIURAU"
+       }
+    },
+    "serpapi_pagination":{
+       "current":1,
+       "next_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=10",
+       "next":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=10",
+       "other_pages":{
+          "2":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=10",
+          "3":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=20",
+          "4":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=30",
+          "5":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=40",
+          "6":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=50",
+          "7":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=60",
+          "8":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=70",
+          "9":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=80",
+          "10":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=vans&start=90"
+       }
+    }
+ }

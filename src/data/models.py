@@ -1,4 +1,6 @@
 from pydantic import BaseModel
+from typing import List, Optional
+from datetime import datetime
 
 
 class Price(BaseModel):
@@ -149,3 +151,78 @@ class AgentStateData(BaseModel):
 class AgentStateMetadata(BaseModel):
     show_reasoning: bool = False
     model_config = {"extra": "allow"}
+
+class InstagramTrend(BaseModel):
+    name: str
+    postsCount: int
+    related: list[dict[str, str]]
+
+
+class GoogleNews(BaseModel):
+    title: str  # News article title
+    source: str  # Source/publisher of the news
+    date: str  # Publication date
+    link: str  # URL link to the article
+    snippet: str  # Brief excerpt/summary of the article
+
+# Model for Google Trends data point values
+class TrendValue(BaseModel):
+    query: str
+    value: str
+    extracted_value: int
+
+# Model for a single timestamp's trend data
+class TrendDataPoint(BaseModel):
+    date: str
+    timestamp: str
+    partial_data: bool = False
+    values: list[TrendValue]
+
+# Model for trend averages
+class TrendAverage(BaseModel):
+    query: str
+    value: int
+
+# Model for complete Google Trends response
+class GoogleTrends(BaseModel):
+    timeline_data: list[TrendDataPoint]
+    averages: list[TrendAverage]
+
+# Model for individual Instagram post
+class InstagramPost(BaseModel):
+    id: Optional[str] = None
+    caption: Optional[str] = None
+    url: str = ""
+    timestamp: Optional[str] = None
+    likes_count: Optional[int] = None
+    comments_count: Optional[int] = None
+    display_url: Optional[str] = None
+    dimensions_height: Optional[int] = None
+    dimensions_width: Optional[int] = None
+    is_sponsored: Optional[bool] = None
+    product_type: Optional[str] = None
+    first_comment: Optional[str] = None
+    latest_comments: Optional[List[str]] = None
+
+class RelatedHashtag(BaseModel):
+    hash: str
+    info: Optional[str] = None
+
+class InstagramHashtagStats(BaseModel):
+    name: str
+    post_count: int  # 改为 int 类型
+    url: str
+    id: str
+    posts: str
+    top_posts: List[InstagramPost] = []
+    posts_per_day: float = 0
+    related: List[RelatedHashtag] = []
+    collection_timestamp: str
+
+    def log_stats(self):
+        """Log the statistics for this hashtag"""
+        logging.info(f"Hashtag #{self.name} stats:")
+        logging.info(f"- Total posts: {self.post_count:,}")
+        logging.info(f"- Posts per day: {self.posts_per_day:,.2f}")
+        logging.info(f"- Related hashtags: {len(self.related)}")
+

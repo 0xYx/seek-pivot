@@ -1,6 +1,13 @@
 import os
 import pandas as pd
 import requests
+from serpapi import GoogleSearch
+from dotenv import load_dotenv
+from apify_client import ApifyClient
+import logging
+import json
+from datetime import datetime  # 添加这行
+
 
 from data.cache import get_cache
 from data.models import (
@@ -14,11 +21,15 @@ from data.models import (
     LineItemResponse,
     InsiderTrade,
     InsiderTradeResponse,
+    InstagramHashtagStats,
+    GoogleNews,
+    InstagramPost,
+    RelatedHashtag,
 )
 
 # Global cache instance
 _cache = get_cache()
-
+load_dotenv()
 
 def get_prices(ticker: str, start_date: str, end_date: str) -> list[Price]:
     """Fetch price data from cache or API."""
@@ -280,3 +291,174 @@ def prices_to_df(prices: list[Price]) -> pd.DataFrame:
 def get_price_data(ticker: str, start_date: str, end_date: str) -> pd.DataFrame:
     prices = get_prices(ticker, start_date, end_date)
     return prices_to_df(prices)
+
+
+# Get Google Trends data for a list of queries
+# from serpapi import GoogleSearch
+
+# params = {
+#   "engine": "google_trends",
+#   "q": "coffee,milk,bread,pasta,steak",
+#   "data_type": "TIMESERIES",
+#   "api_key": "d9f287f256744fac5911e54e72298cda45a489e77a14c2ceeedac4819eac5d31"
+# }
+
+# search = GoogleSearch(params)
+# results = search.get_dict()
+# interest_over_time = results["interest_over_time"]
+def get_google_trends(querylist: list[str]) -> pd.DataFrame:
+    search = GoogleSearch(
+        {
+            "engine": "google_trends",
+            "api_key": os.getenv("SERPAPI_API_KEY"),
+            "q": ",".join(querylist),
+            "data_type": "TIMESERIES",
+            "date": "now 7-d"
+        }
+    )
+    results = search.get_dict()
+    print(results)
+    interest_over_time = results["interest_over_time"]
+    return interest_over_time
+
+# Get Google News data for a list of queries
+# from serpapi import GoogleSearch
+
+# params = {
+#   "engine": "google_news",
+#   "q": "pizza",
+#   "gl": "us",
+#   "hl": "en",
+#   "api_key": "d9f287f256744fac5911e54e72298cda45a489e77a14c2ceeedac4819eac5d31"
+# }
+
+# search = GoogleSearch(params)
+# results = search.get_dict()
+# news_results = results["news_results"]
+
+def get_google_news(querylist: list[str]) -> pd.DataFrame:
+    search = GoogleSearch(
+        {
+            "engine": "google_news",
+            "api_key": os.getenv("SERPAPI_API_KEY"),
+            "q": ",".join(querylist),
+            "gl": "us",
+            "hl": "en",
+            "data_type": "NEWS"
+        }
+    )
+    results = search.get_dict()
+    print(results)
+    news_results = results["news_results"]  
+    return news_results
+
+# Get Instagram Trends data for a list of hashtags
+# from apify_client import ApifyClient
+
+# # Initialize the ApifyClient with your API token
+# client = ApifyClient("<YOUR_API_TOKEN>")
+
+# # Prepare the Actor input
+# run_input = { "hashtags": ["webscraping"] }
+
+# # Run the Actor and wait for it to finish
+# run = client.actor("cHedUknx10dsaavpI").call(run_input=run_input)
+
+# # Fetch and print Actor results from the run's dataset (if there are any)
+# for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+#     print(item)
+def get_instagram_trends(hashtags: list[str]) -> list[InstagramHashtagStats]:
+    """
+    Fetch Instagram hashtag statistics and trends data
+    Args:
+        hashtags: List of hashtag names to analyze
+    Returns:
+        List of InstagramHashtagStats objects with parsed data
+    """
+    try:
+        # Initialize ApifyClient with API key
+        client = ApifyClient(os.getenv("APIFY_API_KEY"))
+        
+        logging.info(f"开始获取 Instagram 数据，标签: {hashtags}")
+        
+        # Set input parameters for the actor
+        run_input = { 
+            "hashtags": hashtags,
+            "resultsLimit": 100
+        }
+
+        # Check if in debug mode
+        debug_mode = os.getenv("DEBUG", "false").lower() == "true"
+        
+        if debug_mode:
+            # For testing, load data from local file
+            logging.info("Debug mode: Using local test data file")
+            with open('src/apify/dataset_instagram-hashtag-stats_2025-03-09_12-05-31-336.json', 'r') as f:
+                data_items = json.load(f)
+        else:
+            # Run the actor and get results from API
+            logging.info("Production mode: Fetching data from Instagram API")
+            # run = client.actor("cHedUknx10dsaavpI").call(run_input=run_input)
+            # data_items = client.dataset(run["defaultDatasetId"]).iterate_items()
+        
+        # Parse results into data model
+        instagram_data = []
+        for item in data_items:
+            # Parse top posts
+            top_posts = []
+            for post in item.get('top_posts', []):
+                post_obj = InstagramPost(
+                    id=str(post.get('id', '')),
+                    caption=post.get('caption'),
+                    url=post.get('url', ''),
+                    timestamp=post.get('timestamp'),
+                    likes_count=int(post.get('likesCount', 0)),
+                    comments_count=int(post.get('commentsCount', 0)),
+                    display_url=post.get('displayUrl'),
+                    dimensions_height=post.get('dimensionsHeight'),
+                    dimensions_width=post.get('dimensionsWidth'),
+                    is_sponsored=bool(post.get('isSponsored')),
+                    product_type=post.get('productType'),
+                    first_comment=post.get('firstComment'),
+                    latest_comments=post.get('latestComments', [])
+                )
+                top_posts.append(post_obj)
+            
+            # Parse related hashtags
+            related_hashtags = []
+            for related in item.get('related', []):
+                if isinstance(related, str):
+                    related_hashtags.append(RelatedHashtag(hash=related))
+                elif isinstance(related, dict):
+                    related_hashtags.append(RelatedHashtag(
+                        hash=related.get('hash', ''),
+                        info=related.get('info', '')
+                    ))
+                
+            # Create InstagramHashtagStats object
+            hashtag_stats = InstagramHashtagStats(
+                name=str(item.get('name', '')),
+                post_count=int(item.get('postsCount', 0)),
+                url=str(item.get('url', '')),
+                id=str(item.get('id', '')),
+                posts=item.get('posts', ''),
+                top_posts=top_posts,
+                posts_per_day=float(item.get('postsPerDay', 0)),
+                related=related_hashtags,
+                collection_timestamp=datetime.now().isoformat()
+            )
+            
+            instagram_data.append(hashtag_stats)
+            
+            # Log individual hashtag stats
+            logging.info(f"\n标签 #{hashtag_stats.name} 统计:")
+            logging.info(f"- 帖子总数: {hashtag_stats.post_count:,}")
+            logging.info(f"- 日均帖子: {hashtag_stats.posts_per_day:,.2f}")
+            logging.info(f"- 相关标签数: {len(hashtag_stats.related)}")
+        
+        return instagram_data
+
+    except Exception as e:
+        logging.error(f"Instagram 数据获取错误: {str(e)}")
+        logging.error("错误详情:", exc_info=True)
+        return []
